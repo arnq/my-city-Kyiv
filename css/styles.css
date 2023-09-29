@@ -1,0 +1,143 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.main-page {
+  height: 100%;
+  width: 100%;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  padding-top: 32px;
+  box-sizing: border-box;
+}
+
+.my-city-descr {
+  color: #1b1d1f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+.my-city-title {
+  color: #1b1d1f;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 36px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+
+.my-city-container {
+  border-radius: 40px;
+  background: #fff;
+  padding: 60px;
+  box-sizing: border-box;
+  width: 573px;
+}
+
+.goit-logo {
+  margin-bottom: 36px;
+}
+
+.form-page {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.form {
+  border-radius: 40px;
+  background: #ecf4f8;
+  width: 1170px;
+  margin: auto;
+  padding: 60px 100px 100px 60px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.form-title {
+  color: #1b1d1f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 40 px;
+}
+
+.form-field {
+  border-radius: 12px;
+  border: 1px solid #2b4c5c;
+  width: 304px;
+  padding: 12px 24px 12px 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+
+  color: #1b1d1f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.form-submit-btn {
+  border-radius: 12px;
+  background: #ff6b0a;
+  padding: 12px 24px 12px 24px;
+  margin-right: 24px;
+  box-sizing: border-box;
+  border: none;
+  width: 300px;
+  cursor: pointer;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.galery-page {
+  padding-bottom: 88px;
+}
+
+.galery-title {
+  margin-bottom: 80px;
+  color: #1b1d1f;
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-modal-btn {
+  width: calc(25% - (3 * 25px / 4));
+  padding: 0;
+  background: none;
+  border: none;
+  margin-bottom: 24px;
+  border-radius: 48px;
+  cursor: pointer;
+}
+
+.city-foto {
+  width: 100%;
+  border-radius: 48px;
+}
